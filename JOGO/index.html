@@ -1,0 +1,84 @@
+
+</<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>JUEGO DE PREGUNTAS</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+<script src="https://kit.fontawesome.com/01f933892b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header id ="main-header">
+		<a class="home" href="..//index.html">HOME</a>
+		<h1>BIENVENIDO JUGADOR	</h1>
+		<p id="nombre"></p>
+		<div class="puntaje">
+			PUNTAJE: <div id="contador" class="cuenta"></div>
+			<b id="puntaje"></b>
+		</div>
+		<br>
+		<a>Debe seleccionar la opcion correcta para sumar puntos, de lo contrario se le restaran puntos</a>
+	</header>
+
+	<div class="pregunta1">
+		<h1><center> ¿CUAL ES EL NOMBRE DE ESTA FIGURA? </center></h1>
+		<center><i class="fa-solid fa-square"></i></center>
+		<center>
+		<button onclick="aumentar()">CUADRADO</button>
+		<button onclick="disminuir()">CIRCULO</button>
+		<button onclick="disminuir()">TRIANGULO</button>
+		<button onclick="disminuir()">CUBO</button>
+		</center>
+
+	<div class="pregunta2">
+		<h1><center> ¿CUAL ES EL NOMBRE DE ESTA FIGURA?</center></h1>
+		<center><i class="fa-solid fa-caret-up"></i></center>
+		
+		<center>
+		<button onclick="disminuir()">CUADRADO</button>
+		<button onclick="aumentar()">TRIANGULO</button>
+		<button onclick="disminuir()">CIRCULO</button>	
+		<button onclick="disminuir()">ROMBOIDE</button>
+		</center>
+
+	<div class="pregunta3">
+		<h1><center> ¿CUAL ES EL NOMBRE DE ESTA FIGURA?</center></h1>
+		<center><i class="fa-solid fa-circle"></i></center>
+
+		<center>
+		<button onclick="disminuir()">CUADRADO</button>
+		<button onclick="disminuir()">ROMBO</button>
+		<button onclick="disminuir()">TRIANGULO</button>
+		<button onclick="aumentar()">CIRCULO</button>
+		</center>
+
+	</div>
+
+	<div class="pregunta4">
+		<h1><center> ¿A DONDE APUNTA ESTA FLECHA? </center></h1>
+		<center><i class="fa-solid fa-arrow-up"></i></center>
+
+		<center>
+		<button onclick="aumentar()">ARRIBA</button>
+		<button onclick="disminuir()">DERECHA</button>
+		<button onclick="disminuir()">IZQUIERDA</button>
+		<button onclick="disminuir()">ABAJO</button>
+
+		</center>
+	</div>
+	<div class="pregunta5">
+		<h1><center> ¿QUE TRANSPORTE ES ESTE? </center></h1>
+		<center><i class="fa-solid fa-bicycle"></i></center>
+
+		<center>
+		<button onclick="disminuir()">AUTOMOVIL</button>
+		<button onclick="aumentar()">BICICLETA</button>
+		<button onclick="disminuir()">BUS</button>
+		<button onclick="disminuir()">MOTO</button>
+	
+<h2><script src = js/name.js></script></h2>	
+	<script src="js/contador.js"></script>
+</body>
+</html>

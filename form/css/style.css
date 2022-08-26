@@ -1,0 +1,26 @@
+
+
+body{
+	background: #2555F9;
+
+
+}
+.amarillo{
+
+	color: #FDF467;
+
+}
+.blanco{
+	color: white;
+}
+.border{
+	
+	border-radius: 0.5%;
+	border-color: black;
+}
+.consulta{
+	width: 30.5%;
+	height: 100px;
+	border-radius:0.5%;
+	border-color: black;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="..//css/style.css">
+<script src="https://kit.fontawesome.com/01f933892b.js" crossorigin="anonymous"></script>
+<title>Form Alen</title>
+</head>
+<body>
+	<a class="container" href="..//index.html"><i class="fa-solid fa-house"></i>HOME</a>
+<h1 class="amarillo">FORMULARIO DE CONTACTO</h1>
+
+
+<form  action="https://formspree.io/f/mqkjkeav" method="POST">
+<FIELDSET >
+<legend class="amarillo"><h2 >INGRESE DATOS PERSONALES</h2></legend>
+
+<label for="" class="amarillo">Ingrese Nombre <input placeholder="Ingrese su nombre "class="border" type="text" name="Nombre" required></label>
+</br>
+<br>
+<label for="" class="amarillo">Ingrese Apellido <input placeholder="Ingrese su Apellido "class="border" type="text" name="Apellido" required></label>
+</br>
+<br>
+
+<label for="" class="amarillo">Ingrese su email <input placeholder="Ingrese el email "class="border" type="email" name="email"  size="30" required></label>
+<br>
+<br>
+<label for="" class="amarillo">Ingrese su telefono <input placeholder="Numero celular" class="border" type="number" name="telefono"  pattern="^[0-9]+" size="30"></label>
+<br>
+<br>
+<label for="" class="amarillo">Ingrese su fecha de nacimiento <input class="border" type="date" name="fecha_nacimiento" pattern="^[0-9]+" required></label>
+<br>
+<br>
+<p class="amarillo">Ingrese su consulta</p>
+<textarea class="consulta" name="consulta" required></textarea>
+<br>
+<br>
+<br>
+<button class="border">ENVIAR</button> 	 
+<button class="border " type="reset">BORRAR</button>
+</fieldset>
+</form>
+</body>
+</html>

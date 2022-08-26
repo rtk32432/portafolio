@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+	<script src="https://kit.fontawesome.com/01f933892b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="..//css/style.css">
+	<title>CALCULADORA</title>
+</head>
+<body>
+	<a class="container" href="..//index.html"><i class="fa-solid fa-house"></i>HOME</a>
+<h1>CALCULADORA</h1>
+<form action="suma.php" method="POST">
+<b>INGRESE PRIMER NUMERO - (BASE)</b> 
+<input type="n" name="numero_1" required pattern="^[0-9]+">
+<br>
+<br>
+<b>INGRESE SEGUNDO NUMERO - (EXPONENTE)</b>
+<input type="text" name="numero_2" required pattern="^[0-9]+">
+<br>
+
+<form action="suma.php" method="post">
+		<select name="consulta" id="">
+			<option value="suma">SUMA</option>
+			<option value="resta">RESTA</option>
+			<option value="multiplicacion">MULTIPLICACION</option>
+			<option value="division">DIVISION</option>
+			<option value="potencia">POTENCIA</option>
+		</select>
+		<button type="submit" value="enviar">Enviar Eleccion</button>
+		
+</form>
+</body>
+</html>

@@ -5,7 +5,7 @@ const pokemonContainer = document.querySelector(".pokemon-container");
 button.addEventListener('click', (e) =>{
 	e.preventDefault();
 	traerPokemon(input.value);
-}) 
+})
 
 function traerPokemon (pokemon) {
 
